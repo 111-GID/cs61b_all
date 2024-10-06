@@ -7,6 +7,6 @@ package interface3;
  * return 1 if I am larger than o
  *
  */
-public interface OurComparable {
-    public int compareTo(Object o);
+public interface OurComparable<pineapple> {
+    public int compareTo(pineapple o);
 }
