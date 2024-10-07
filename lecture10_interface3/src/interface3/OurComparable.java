@@ -7,6 +7,6 @@ package interface3;
  * return 1 if I am larger than o
  *
  */
-public interface OurComparable<pineapple> {
+public interface OurComparable<pineapple> {//<pineapple> 表示可用于各种对象
     public int compareTo(pineapple o);
 }
